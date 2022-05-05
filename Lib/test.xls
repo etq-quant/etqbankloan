@@ -1,0 +1,137 @@
+Folder PATH listing for volume Windows
+Volume serial number is 72B0-ECC6
+C:.
+|   test.xls
+|   
++---etiqabacktest
+|   |   BasicBacktest.py
+|   |   ESGRule.py
+|   |   LRRule.py
+|   |   StyleBacktest.py
+|   |   StyleRule.py
+|   |   __init__.py
+|   |   
+|   +---core
+|   |   |   Backtest.py
+|   |   |   Checking.py
+|   |   |   Data.py
+|   |   |   Feature.py
+|   |   |   Performance.py
+|   |   |   Preprocess.py
+|   |   |   
+|   |   \---__pycache__
+|   |           Backtest.cpython-37.pyc
+|   |           Checking.cpython-37.pyc
+|   |           Data.cpython-37.pyc
+|   |           Feature.cpython-37.pyc
+|   |           Performance.cpython-37.pyc
+|   |           Preprocess.cpython-37.pyc
+|   |           Return.cpython-37.pyc
+|   |           
+|   +---plotting
+|   |   |   charting_tools.py
+|   |   |   charting_tools2.py
+|   |   |   charting_tools3.py
+|   |   |   
+|   |   +---.ipynb_checkpoints
+|   |   |       charting_tools2-checkpoint.py
+|   |   |       
+|   |   \---__pycache__
+|   |           charting_tools.cpython-37.pyc
+|   |           charting_tools2.cpython-37.pyc
+|   |           charting_tools3.cpython-37.pyc
+|   |           
+|   \---__pycache__
+|           Backtest.cpython-37.pyc
+|           BasicBacktest.cpython-37.pyc
+|           charting_tools.cpython-37.pyc
+|           ESGbacktest.cpython-37.pyc
+|           Feature.cpython-37.pyc
+|           LRBacktest.cpython-37.pyc
+|           StyleBacktest.cpython-37.pyc
+|           StyleRule.cpython-37.pyc
+|           __init__.cpython-37.pyc
+|           
+\---etiqalib
+    |   bqfields.py
+    |   charting_tool.py
+    |   config.py
+    |   export_html.py
+    |   features.py
+    |   model.py
+    |   preprocessing.py
+    |   read_file.py
+    |   styling.py
+    |   tests.py
+    |   universe.py
+    |   univ_config.py
+    |   __init__.py
+    |   
+    +---.ipynb_checkpoints
+    |       bqfields-checkpoint.py
+    |       export_html-checkpoint.py
+    |       
+    +---analysis
+    |   |   analyst.py
+    |   |   bear.py
+    |   |   fa_report.py
+    |   |   index_pe.py
+    |   |   interval.py
+    |   |   style.py
+    |   |   __init__.py
+    |   |   
+    |   +---.ipynb_checkpoints
+    |   |       analyst-checkpoint.py
+    |   |       bear-checkpoint.py
+    |   |       fa_report-checkpoint.py
+    |   |       index_pe-checkpoint.py
+    |   |       
+    |   \---__pycache__
+    |           analyst.cpython-37.pyc
+    |           bear.cpython-37.pyc
+    |           fa_report.cpython-37.pyc
+    |           index_pe.cpython-37.pyc
+    |           interval.cpython-37.pyc
+    |           recession.cpython-37.pyc
+    |           style.cpython-37.pyc
+    |           __init__.cpython-37.pyc
+    |           
+    +---ta
+    |   |   swing_points.py
+    |   |   turning_points.py
+    |   |   turning_points_old.py
+    |   |   
+    |   +---.ipynb_checkpoints
+    |   |       swing_points-checkpoint.py
+    |   |       turning_points-checkpoint.py
+    |   |       turning_points_old-checkpoint.py
+    |   |       
+    |   \---__pycache__
+    |           channel_breakout.cpython-37.pyc
+    |           swing_points.cpython-37.pyc
+    |           turning_points.cpython-37.pyc
+    |           turning_points_old.cpython-37.pyc
+    |           
+    \---__pycache__
+            analyst.cpython-37.pyc
+            AnalystUpdateSector.cpython-37.pyc
+            bqfields.cpython-37.pyc
+            bqgetdata.cpython-37.pyc
+            charting_tool.cpython-37.pyc
+            common.cpython-37.pyc
+            config.cpython-37.pyc
+            export_html.cpython-37.pyc
+            FAutil.cpython-37.pyc
+            features.cpython-37.pyc
+            format.cpython-37.pyc
+            misc.cpython-37.pyc
+            model.cpython-37.pyc
+            preprocessing.cpython-37.pyc
+            read_file.cpython-37.pyc
+            shared.cpython-37.pyc
+            styling.cpython-37.pyc
+            universe.cpython-37.pyc
+            univ_config.cpython-37.pyc
+            utils.cpython-37.pyc
+            __init__.cpython-37.pyc
+            

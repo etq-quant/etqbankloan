@@ -1,0 +1,11 @@
+
+cache/*.pkl
+data/*.pkl
+/*.pkl
+**/*.pyc
+**/__pycache__
+.ipynb_checkpoints
+.proj
+.project.json
+.virtual_documents/*
+Archive_OPR and Bank/*

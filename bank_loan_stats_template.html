@@ -1,0 +1,149 @@
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            padding-left: "2em"
+        }
+
+        @media print {
+            a::after {
+                content: " ("attr(href) ") ";
+            }
+
+            pre {
+                white-space: pre-wrap;
+            }
+
+            @page {
+                margin: 0.75in;
+                size: landscape;
+
+                @top-right {
+                    content: counter(page);
+                }
+            }
+
+            @page :first {
+                @top-right {
+                    content: "";
+                }
+            }
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            text-align: right;
+            /* background-color: #ffd700; */
+            /* background-color: #fffbab; */
+            color: black;
+        }
+
+        /* tr:nth-child(even) {
+            background-color: #f2f2f2;
+        } */
+
+        tr {
+            text-align: right;
+            page-break-inside: avoid;
+        }
+
+        thead {
+            display: table-header-group;
+        }
+
+        tfoot {
+            display: table-row-group;
+        }
+
+        .break-before {
+            page-break-before: always;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css">
+</head>
+
+<body>
+    <article class="panel is-info my-1">
+        <p class="panel-heading">
+            {{title}}<br>({{ date_time_str }})
+        </p>
+    </article>
+    <div>{{fig_overview}}</div>
+    <div>{{overview_text}}</div>
+
+    <p style="page-break-before: always"></p>
+    <article class="panel is-info my-1">
+        <p class="panel-heading">
+            Total Bank Loan Application and Approval
+        </p>
+    </article>
+    <div>{{fig_loan}}</div>
+    <div>{{loan_text}}</div>
+
+    <p style="page-break-before: always"></p>
+    <article class="panel is-info my-1">
+        <p class="panel-heading">
+            Loan Application by Purpose (Rolling 12 Months Average)
+        </p>
+    </article>
+    <div>{{fig_application}}</div>
+
+
+    <p style="page-break-before: always"></p>
+    <article class="panel is-info my-1">
+        <p class="panel-heading">
+            Loan Approval by Purpose (Rolling 12 Months Average)
+        </p>
+    </article>
+    <div>{{fig_approval}}</div>
+
+
+    <p style="page-break-before: always"></p>
+    <article class="panel is-info my-1">
+        <p class="panel-heading">
+            YoY% Change in Loan Application
+        </p>
+    </article>
+    <div>{{appl_df_2}}</div>
+
+    <article class="panel is-info my-1 py-1">
+        <p class="panel-heading">
+            YoY% Change in Loan Approval
+        </p>
+    </article>
+    <div>{{appr_df_2}}</div>
+
+    {% for n in range(figs_N) %}
+    <p style="page-break-before: always"></p>
+    <article class="panel is-info my-1">
+        <p class="panel-heading">
+            {{fig_titles[n]}}
+        </p>
+    </article>
+    <div> {{figs[n]}} </div>
+    <div>{{purpose_texts[n]}}</div>
+    {% endfor %}
+</body>
+
+</html>
