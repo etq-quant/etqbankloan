@@ -5,12 +5,13 @@
     <title>{{ title }}</title>
     <style>
         body {
-            padding-left: "2em"
+            background-image: url(/images/etiqalogo.png);
+            padding-left: "2em";
         }
 
         @media print {
             a::after {
-                content: " ("attr(href) ") ";
+                content: " (" attr(href) ") ";
             }
 
             pre {
@@ -77,6 +78,14 @@
             display: table;
             clear: both;
         }
+
+        #logo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 85px;
+            margin-top: -45px;
+        }
     </style>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
@@ -84,6 +93,10 @@
 </head>
 
 <body>
+    <div id="logo">
+        <img src="https://seeklogo.com/images/E/etiqa-logo-44A4E56F8C-seeklogo.com.png">
+    </div>
+
     <article class="panel is-info my-1">
         <p class="panel-heading">
             {{title}}<br>({{ date_time_str }})
@@ -104,7 +117,7 @@
     <p style="page-break-before: always"></p>
     <article class="panel is-info my-1">
         <p class="panel-heading">
-            Loan Application by Purpose (Rolling 12 Months Average)
+            Loan Application by Purpose
         </p>
     </article>
     <div>{{fig_application}}</div>
@@ -113,7 +126,7 @@
     <p style="page-break-before: always"></p>
     <article class="panel is-info my-1">
         <p class="panel-heading">
-            Loan Approval by Purpose (Rolling 12 Months Average)
+            Loan Approval by Purpose
         </p>
     </article>
     <div>{{fig_approval}}</div>
