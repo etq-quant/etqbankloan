@@ -1,4 +1,4 @@
-# BQNT: Bank Loan Stats" 
+# BQNT: Bank Loan Stats"
 
 
 ** WARNINGS ON STRUCTURAL CHANGE IN DATA **
