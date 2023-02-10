@@ -6,16 +6,20 @@
 ```
 pip install -r requirements.txt
 
-# weasyprint may require additional steps, refer below:
-https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
+# For Windows machine
+# reference: https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
+- download and install gtk
+- https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases/download/2022-01-04/gtk3-runtime-3.24.31-2022-01-04-ts-win64.exe
+
+
 ```
 
 
 ## Steps:
-1. Run notebook (Auto1_Bank Loan Stats.ipynb) on BQNT - refrehs indicators (OPR, M3 etc.)
-2. Copy the two xls files to 'data/Loan Stats' and rename to 202209_Banking System.xls, 202209_Banking System_2.xls
-3. Run notebook (Auto1_Bank Loan Stats.ipynb) on local environment
-4. Pdf output located in "./output"
+1. Run notebook `Auto1_Bank Loan Stats-New202107` on BQNT - refresh indicators (OPR, M3 etc.)
+2. Copy the two xls files to `data/Loan Stats` and rename to `<YYYYMM>_Banking System.xls`, `<YYYYMM>_Banking System_2.xls`
+3. Run notebook `Auto1_Bank Loan Stats-New202107` on local environment
+4. Pdf output: `./output/Bank Loan Stats-<YYYY-MM-DD>.pdf`
 
 ## Structural Change in Data
 - since 202209_Banking System.XLS and 202209_Banking System_2.XLS
