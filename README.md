@@ -1,12 +1,11 @@
-# BQNT: Bank Loan Stats"
+# BQNT: Bank Loan Stats
 
 
-** WARNINGS ON STRUCTURAL CHANGE IN DATA **
-- since 202209_Banking System.XLS and 202209_Banking System_2.XLS
- - structural change happened at 2021 July (2021 June and before are the same)
 
-
+## Requirements
+```
 https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
+```
 
 
 ## Steps:
@@ -15,9 +14,13 @@ https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
 3. Run notebook (Auto1_Bank Loan Stats.ipynb) on local environment
 4. Pdf output located in "./output"
 
+## Structural Change in Data
+- since 202209_Banking System.XLS and 202209_Banking System_2.XLS
+ - structural change happened at 2021 July (2021 June and before are the same)
 
-## Comments
+## Historical Comments
 
+```
 2022-08-01.pdf
 
 Banking Loan Stats Update (as of end of June 2022):
@@ -32,11 +35,11 @@ Key sectors driving the credit market:
 
 YoY growth of loan application and approval are very high, partially due to low base effect, but we are seeing all-time high in loan approval for Passenger Cars (RM 6.45B) and Residential Mortgages (RM13.8B vs 2013 high of RM12.5B) .
 Loan approval for Credit Cards and Working Capital are still recovering at a strong pace.
+```
 
 
 
-
-
+```
 2022-10-03.pdf
 
 Banking Loan Stats Update (as of end of August 2022):
@@ -50,11 +53,11 @@ Key sectors driving the credit market:
 2) Passenger Cars (YoY growth - application: 203.00%, approval: 272.17%)
 3) Working Capital (YoY growth - application: 13.08%, approval: 100.02%)
 4) Residential Mortgages (YoY growth - application: 63.31%, approval: 94.20%)
+```
 
 
 
-
-
+```
 2022-11-03.pdf
 
 *Banking Loan Stats Update (as of end of September 2022):*
@@ -67,3 +70,4 @@ Key sectors driving the credit market:
 3) Working Capital (YoY growth - application: 49.92%, approval: 29.39%)
 4) Residential Mortgages (YoY growth - application: 10.19%, approval: 28.35%)
 
+```
