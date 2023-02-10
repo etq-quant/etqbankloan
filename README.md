@@ -4,6 +4,9 @@
 
 ## Requirements
 ```
+pip install -r requirements.txt
+
+# weasyprint may require additional steps, refer below:
 https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
 ```
 
