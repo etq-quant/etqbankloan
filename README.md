@@ -1,4 +1,4 @@
-# BQNT: Bank Loan Stats
+# BQNT: Bank Loan Stats (LATEST 2024-06-18)
 
 
 
